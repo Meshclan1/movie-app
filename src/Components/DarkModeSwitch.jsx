@@ -4,12 +4,15 @@ import React from "react";
 import useTheme from "next-themes";
 import { useState, useEffect } from "react";
 
+import { MdLightMode } from "react-icons/md";
+import { MdDarkMode } from "react-icons/md";
+
 export default function DarkModeSwitch() {
-  [,] = useState("");
+  [mounted, setMounted] = useState(false);
 
-  useEffect(() => {}, []);
+  useEffect(() => setMounted(true), []);
 
-  const { theme, setTheme, defaultTheme } = useTheme();
+  const { theme, setTheme, systemTheme } = useTheme();
 
   return <div>DarkModeSwitch</div>;
 }
