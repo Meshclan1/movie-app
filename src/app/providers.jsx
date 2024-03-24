@@ -3,7 +3,7 @@
 import React from "react";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
 
-export default function providers() {
+export default function Providers() {
   return (
     <>
       <div>providers</div>

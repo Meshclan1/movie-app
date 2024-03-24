@@ -4,8 +4,8 @@ import React from "react";
 import { useSearchParams } from "next/navigation";
 
 export default function NavBarItem() {
-  searchParams = useSearchParams();
-  genre = searchParams.get();
+  const searchParams = useSearchParams();
+  const genre = searchParams.get("genre");
 
   return (
     <div title="" params="">

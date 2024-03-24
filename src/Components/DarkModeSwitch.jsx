@@ -9,7 +9,7 @@ export default function DarkModeSwitch() {
 
   useEffect(() => {}, []);
 
-  const { theme, setTheme } = useTheme();
+  const { theme, setTheme, defaultTheme } = useTheme();
 
   return <div>DarkModeSwitch</div>;
 }
