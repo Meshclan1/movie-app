@@ -8,11 +8,10 @@ export default function MenuItem() {
     <>
       <div Link>MenuItem 1</div>
       <div>MenuItem 2</div>
+      <Link href=""> </Link>
+      <Link href=""> </Link>
+      <AiFillHome />
+      <BsFillInfoCircleFill />
     </>
   );
 }
-
-<Link href=""> </Link>
-<Link href=""> </Link>
-<AiFillHome />
-<BsFillInfoCircleFill/>
