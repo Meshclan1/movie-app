@@ -1,18 +1,33 @@
 "use client";
 
 import React from "react";
-import useTheme from "next-themes";
+import { useTheme } from "next-themes";
 import { useState, useEffect } from "react";
 
 import { MdLightMode } from "react-icons/md";
 import { MdDarkMode } from "react-icons/md";
 
 export default function DarkModeSwitch() {
-  [mounted, setMounted] = useState(false);
+  const { theme, setTheme, systemTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
 
+  const currentTheme = theme === "system" ? systemTheme : theme;
   useEffect(() => setMounted(true), []);
 
-  const { theme, setTheme, systemTheme } = useTheme();
-
-  return <div>DarkModeSwitch</div>;
+  return (
+    <div>
+      {mounted &&
+        (currentTheme === "dark" ? (
+          <MdLightMode
+            onClick={() => setTheme("light")}
+            className="text-xl cursor-pointer hover:text-amber-500"
+          />
+        ) : (
+          <MdDarkMode
+            onClick={() => setTheme("dark")}
+            className="text-xl cursor"
+          />
+        ))}
+    </div>
+  );
 }

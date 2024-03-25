@@ -13,15 +13,13 @@ export default function Header() {
         <MenuItem title="Home" address="/" Icon={AiFillHome} />
         <MenuItem title="About" address="/about" Icon={BsFillInfoCircleFill} />
       </div>
-      <div className="flex gap-1 items-center">
-        <div>
-          <DarkModeSwitch />
-          <Link href={"/"}>
-            <span className="text-2xl font-bold bg-amber-500 py-1 px-2 rounded-lg">
-              Movies
-            </span>
-          </Link>
-        </div>
+      <div className="flex gap-4 items-center">
+        <DarkModeSwitch />
+        <Link href={"/"}>
+          <span className="text-2xl font-bold bg-amber-500 py-1 px-2 rounded-lg">
+            Movies
+          </span>
+        </Link>
       </div>
     </div>
   );
