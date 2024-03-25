@@ -1,14 +1,14 @@
-import React from "react";
-import Card from "./Card";
+// import React from "react";
+// import Card from "./Card";
 
-const url = 
+// const url =
 
-export default function Results({searchParams}) {
-genre = searchParams.genre || 'fetchTrending'
+// export default function Results({searchParams}) {
+// genre = searchParams.genre || 'fetchTrending'
 
-  return (
-    <div>
-      <Card />
-    </div>
-  );
-}
+//   return (
+//     <div>
+//       <Card />
+//     </div>
+//   );
+// }
