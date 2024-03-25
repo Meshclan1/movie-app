@@ -17,7 +17,7 @@ export default async function MoviePage({ params }) {
           }`}
           width={500}
           height={300}
-          className="rounded-lg"
+          className="rounded-lg py-4"
           style={{ maxWidth: "100%", height: "100%" }}
         ></Image>
         <div className="p-2">
@@ -25,11 +25,16 @@ export default async function MoviePage({ params }) {
             {movie.title || movie.name}
           </h2>
           <p className="text-lg mb-3">{movie.overview}</p>
-          <p className="mb-3">
+          <p>---</p>
+          <p className="mb-1 pt-2">
+            <span className="font-semibold mr-1">Language:</span>
+            {movie.original_language}
+          </p>
+          <p className="mb-1">
             <span className="font-semibold mr-1">Date Released:</span>
             {movie.release_date || movie.first_air_date}
           </p>
-          <p className="mb-3">
+          <p className="mb-1">
             <span className="font-semibold mr-1">Rating:</span>
             {movie.vote_count}
           </p>
