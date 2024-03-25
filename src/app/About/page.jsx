@@ -3,26 +3,25 @@ import React from "react";
 export default function AboutPage() {
   return (
     <div className="max-w-6xl mx-auto p-3 space-y-4">
-      <h1 className="text-2xl font-medium text-amber-600">About Page</h1>
-      <p>
-        Welcome to the Movie Database - We are passionate about all things film!
+      <h1 className="text-3xl font-medium text-amber-600">About Page</h1>
+      <p className="text-2xl font-normal pt-3">
+        Welcome to the Movie Database. We're passionate about all things film!
         😄🍿
       </p>
 
-      <p>
+      <p className="text-xl font-normal pt-4">
         Whether you're a casual moviegoer, a dedicated cinephile, or a budding
         filmmaker, our platform is your go-to destination for discovering,
         exploring, and celebrating the world of cinema.
       </p>
 
-      <p>
+      <p className="text-xl font-normal pt-1.5">
         With a vast collection of movies spanning genres, eras, and cultures, we
         offer a comprehensive resource for finding your next favorite film. From
-        timeless classics to the latest blockbusters, our database is
-        meticulously curated to provide you with an unparalleled movie-watching
-        experience.
+        timeless classics to the latest blockbusters, our database is curated to
+        provide you with an unparalleled experience.
       </p>
-      <p>
+      <p className="text-xl font-normal pt-1.5">
         So whether you're seeking cinematic inspiration, conducting research for
         your next movie night, or simply indulging your love of film, we invite
         you to dive into the Movie Database and embark on a cinematic journey
