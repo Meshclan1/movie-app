@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function loading() {
-  return <div>loading</div>;
+  return (
+    <div className="flex justify-center mt-16">
+      <img className="h-52" src="spinner.svg" alt="loading spinner" />
+    </div>
+  );
 }

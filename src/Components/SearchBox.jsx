@@ -9,7 +9,6 @@ export default function SearchBox() {
 
   return (
     <>
-      <div>SearchBox</div>
       <form onSubmit={(e) => e.target.value}>
         <input
           onChange={(e) => e.target.value}
