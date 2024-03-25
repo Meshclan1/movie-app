@@ -9,11 +9,9 @@ export default function Footer() {
   return (
     <footer className="dark:bg-gray-800 bg-amber-100 fixed bottom-0 w-full py-2 ">
       <div className="container mx-auto flex  justify-between ">
-        <p>&copy; {new Date().getFullYear()} Ayo's Website</p>
+        <p>&copy; {new Date().getFullYear()} Ayo Website</p>
         <p className="text-sm">Today is: {getCurrentDate()}</p>
       </div>
     </footer>
   );
 }
-
-// bg-gray-800 text-white py-4 fixed bottom-0 w-full

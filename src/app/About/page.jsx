@@ -5,12 +5,12 @@ export default function AboutPage() {
     <div className="max-w-6xl mx-auto p-3 space-y-4">
       <h1 className="text-3xl font-medium text-amber-600">About Page</h1>
       <p className="text-2xl font-normal pt-3">
-        Welcome to the Movie Database. We're passionate about all things film!
+        Welcome to the Movie Database. We are passionate about all things film!
         😄🍿
       </p>
 
       <p className="text-xl font-normal pt-4">
-        Whether you're a casual moviegoer, a dedicated cinephile, or a budding
+        Whether you are a casual moviegoer, a dedicated cinephile, or a budding
         filmmaker, our platform is your go-to destination for discovering,
         exploring, and celebrating the world of cinema.
       </p>
@@ -22,11 +22,11 @@ export default function AboutPage() {
         provide you with an unparalleled experience.
       </p>
       <p className="text-xl font-normal pt-1.5">
-        So whether you're seeking cinematic inspiration, conducting research for
-        your next movie night, or simply indulging your love of film, we invite
-        you to dive into the Movie Database and embark on a cinematic journey
-        like no other. Welcome to the Movie Database – where the magic of movies
-        comes to life!
+        So whether you are seeking cinematic inspiration, conducting research
+        for your next movie night, or simply indulging your love of film, we
+        invite you to dive into the Movie Database and embark on a cinematic
+        journey like no other. Welcome to the Movie Database – where the magic
+        of movies comes to life!
       </p>
     </div>
   );
