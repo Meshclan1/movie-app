@@ -20,6 +20,7 @@ export default function RootLayout({ children }) {
           <Header />
           <NavBar />
           <SearchBox />
+          {children}
         </Providers>
       </body>
     </html>
